@@ -1,4 +1,4 @@
-# Test Plan — E-Commerce Website
+# Test Plan E-Commerce Website
 
 ## 1. Introduction
 This Test Plan defines the testing approach, scope, objectives, entry and exit criteria, and risks associated with the manual testing of the nopCommerce e-commerce website. The purpose of the testing is to verify the functionality of key customer workflows and identify defects that may affect the user's ability to interact with the application successfully. The testing focuses on major e-commerce functionality including user registration, login, product search, shopping cart functionality, checkout, and logout.
