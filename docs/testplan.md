@@ -1,4 +1,4 @@
-# Test Plan — E-Commerce Website
+# Test Plan: E-Commerce Website
 
 ## 1. Introduction
 This Test Plan defines the testing approach, objectives, entry and exit criteria, and risks associated with the manual testing of the nopCommerce e-commerce website. For the full list of features and expected behaviour under test, see [Requirements.md](../requirements.md).
