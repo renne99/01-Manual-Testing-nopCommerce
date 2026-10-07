@@ -100,9 +100,8 @@ Out of scope:
 
 ## 6. Risks
 
-* Weak passwords are accepted during registration (BUG-001).
-* Accounts are activated without email verification (BUG-002).
-* Duplicate items are allowed in the wishlist (BUG-003).
+* Weak passwords are accepted during registration (Observed bug).
+* Accounts are activated without email verification (Observed bug).
 * The demo application may become unavailable or change without notice.
 * Shared/public demo environment may produce inconsistent results between test runs.
 
