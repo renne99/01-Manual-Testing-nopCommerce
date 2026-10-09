@@ -1,7 +1,7 @@
-# E-Commerce Website
+# Test Plan- E-Commerce Website
 
 ## 1. Introduction
-This Test Plan defines the testing approach, scope, objectives, entry and exit criteria, and risks associated with the manual testing of the nopCommerce e-commerce website. The purpose of the testing is to verify the functionality of key customer workflows and identify defects that may affect the user's ability to interact with the application successfully. The testing focuses on major e-commerce functionality including user registration, login, product search, shopping cart functionality, checkout, and logout.
+This Test Plan defines the testing approach, objectives, entry and exit criteria, and risks associated with the manual testing of the nopCommerce e-commerce website. For the full list of features and expected behaviour under test, see [Requirements.md](../requirements.md).
 
 ## 2. Objectives
 - Verify that the application's core functionality operates as expected.
@@ -11,30 +11,9 @@ This Test Plan defines the testing approach, scope, objectives, entry and exit c
 - Ensure that defects are documented with sufficient information for investigation.
 
 ## 3. Scope
+This Test Plan covers the functional requirements listed in [Requirements.md](../requirements.md) (sections 2 and 3): User Registration, Login/Logout, Product Search, Product Details, Shopping Cart, Checkout, and Wishlist.
 
-### 3.1 In Scope
-| Area | Testing Coverage |
-|---|---|
-| User Registration | Registration with valid details and validation of mandatory fields |
-| User Login | Validation of login behaviour with invalid credentials |
-| Product Search | Searching for existing and non-existing products |
-| Shopping Cart | Adding products and updating product quantities |
-| Checkout | Verifying that users can proceed to checkout |
-| Logout | Verifying successful logout and redirection |
-| Wishlist | Validation of duplicate product handling |
-| Registration Security/Validation | Validation of password strength and account activation behaviour |
-
-### 3.2 Out of Scope
-- Performance and load testing
-- Security penetration testing
-- API testing
-- Database testing
-- Source code testing
-- Mobile application testing
-- Automated UI testing
-- Payment gateway certification
-- Infrastructure and server testing
-- Production environment validation
+Out of scope items are the same as listed in Requirements.md section 2 (performance testing, API testing, payment gateway certification, etc.).
 
 ## 4. Test Strategy
 Testing will be performed using a combination of functional, negative, exploratory and scenario-based testing techniques. The testing will focus on validating the behaviour of the application's key customer workflows.
@@ -89,4 +68,4 @@ Defects identified during execution will be documented with steps to reproduce, 
 | R-002 | Changes to the demo application affect existing test cases | Medium | Medium | Review affected test cases and update them when functionality changes |
 | R-003 | Test data becomes invalid or unavailable | Medium | Medium | Maintain appropriate test data for required scenarios |
 | R-004 | Browser compatibility issues affect test execution | Medium | Low | Execute relevant tests using supported browsers |
-| R-005 | Defects prevent further testing of dependent functionality | High | Medium | Log the blocking defect and continue testing independent functionality where possible | 
+| R-005 | Defects prevent further testing of dependent functionality | High | Medium | Log the blocking defect and continue testing independent functionality where possible |
